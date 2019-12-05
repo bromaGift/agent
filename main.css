@@ -1,0 +1,73 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+} 
+nav {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 12%;
+    color: rgba(167, 161, 161, 0.925);
+    word-spacing: 30px;
+}
+a {
+    text-decoration: none;
+    color: rgba(167, 161, 161, 0.925);
+    font-weight: bold;
+}
+a:hover{
+    color: deepskyblue;
+}
+.icon {
+    float: right;
+    word-spacing: 20px;
+    margin-right: 15%;
+}
+h1 {
+    font-size: 3.2em;
+}
+.blue {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.container {
+    float: left;
+    margin-left: 11%;
+    justify-content: center;
+}
+span {
+    color: rgb(59, 150, 253);
+}
+button {
+    width: 30%;
+    padding: 3.1%;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    background:  rgb(59, 150, 253);
+}
+button:hover{
+    background: rosybrown;
+    cursor: pointer;
+}
+.align {
+    text-align: left;
+}
+.pic {
+    float: right;
+}
+.scroll {
+    color: rgba(65, 64, 64, 0.925);
+    font-weight: 450;
+}
+.arrow {
+    color: rgb(59, 150, 253);
+    margin-top: 14%;
+}
